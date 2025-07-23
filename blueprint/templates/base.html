@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Xavier Bester -{% block title %}{% endblock %}</title>
+        <a href="{{ url_for('projects.runProjects') }}">Projects</a>
+        <a href="{{ url_for('home.runHome') }}">Home</a>
+
     </head>
     <body>
         {% block content %}{% endblock %}
