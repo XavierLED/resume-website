@@ -2,4 +2,26 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+<div class="container my-5">
+      <h1>About me</h1>
+      <div class="col-lg-8 px-0">
+<p class="fs-5">When I graduated high school, I thought I had it all figured out I was going to follow in my mom’s footsteps and become a paramedic. But life had other plans. I quickly realized that path wasn’t for me; it left me unfulfilled and searching for something more. That’s when I discovered Harvard’s CS50x course, and everything changed.<br><br>
+
+    Programming was a revelation. The logical challenges, the creativity, the endless possibilities I was hooked. I threw myself into learning, raising my grades at a local college (finishing with a 3.8 GPA) to transfer into the University of Calgary’s Computer Science program.<br><br>
+
+    Once there, my passion only grew. Thanks to my CS50x foundation, first-year courses came easily, but I didn’t stop there. I dove into data structures, algorithms, and side projects, pushing myself beyond the curriculum. My efforts paid off I earned a spot on the Dean’s List in my first year. Aswell as getting a Co-Op position at TrendMicro.<br><br>
+
+    Now, during summer break, my learning has exploded. I’m exploring GoLang, building small projects, and even developing this very website using Python and Flask. Every day, I wake up excited to absorb more about software, systems, and the endless potential of technology.<br><br>
+
+My journey hasn’t been a straight line, but that’s what makes it mine. And honestly? I’ve never been more excited for what’s next.
+
+</p>
+        <p>Feel free to view my GitHub and my resume in the links down below</p>
+
+        <hr class="col-1 my-4">
+
+        <a href="{{ url_for('resume.runResume') }}" class="btn btn-primary">View my resume</a>
+        <a href="https://github.com/XavierLED" class="btn btn-secondary">GitHub</a>
+      </div>
+    </div>
 {% endblock %}
