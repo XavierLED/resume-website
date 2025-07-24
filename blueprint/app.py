@@ -1,7 +1,7 @@
 from flask import Flask
 
 def createApp():
-    app = Flask(__name__, template_folder='templates')
+    app = Flask(__name__, template_folder='templates', static_folder='static', static_url_path='/')
     
     from blueprint.resume.route import resume
     from blueprint.projects.routes import projects
