@@ -9,10 +9,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="{{ url_for('home.runHome') }}">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="/">Xavier Bester</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -20,9 +17,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url_for('resume.runResume') }}">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('contact.runContact') }}">Contact</a>
             </li>
             <li>
                 <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://github.com/XavierLED">
@@ -45,7 +39,9 @@
         </div>
       </div>
     </nav>
-        {% block content %}{% endblock %}
-<script src="/js/bootstrap.js">
+{% block content %}{% endblock %}
+<footer class="footer mt-auto py-3 bg-body-tertiary"> <div class="container"> <span class="text-body-secondary">Contact: Resume or LinkedIn</span> </div> </footer>
+
+        <script src="/js/bootstrap.js">
     </body>
 </html>
