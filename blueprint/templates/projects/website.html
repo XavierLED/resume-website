@@ -3,15 +3,31 @@
 {% block title %}Projects - Resume Website{% endblock %}
 {% block content %}
 <div class="container my-5">
-    <h3>Resume Website | Flask, Python, Git/GitHub, HTML, CSS, JavaScript</h3>
-    <p class="fs-5">The major struggle that I had making this website was the fact that I have never done web dev before. The only interactions that I've had with websites was when I was using them. So the major hurtle was actually getting something up and running using what i know. Which is why I chose to use the flask framework to create this website. <br><br>
-
-My next major issue is that a lot of videos that I watched on Flask were outdated for certain major things, so I had to try and find a newer video. This video was super helpful in the creation of this website, however it was missing a lot of the css, and JavaScript that was needed to make core features of this website like the, show more and show less feature, the navigation bar, the footer. As well as all major formatting for making the website look nice and clean.<br><br>
-
-My final challenge was actually deploying the website to the world wide web. For this I used docker and hosted the website onto a server. This was my first time using docker to containerize my program for deployment, I had only heard of docker not one week before doing this.<br><br>
+    <h3>Resume Website | Flask, Python, Git/GitHub, HTML, BootStrap, Docker</h3>
+    <hr class="col-3 my-4">
+    <div class="col-lg-8 px-0">
+    <p>When I decided to build this website, I had zero web development experience. My only interaction with websites? Using them. So jumping into building one from scratch was equal parts thrilling and daunting.<br><br>
+    <h4>Why Flask?</h4>
+    I chose Flask because it gave me just enough structure to start without overwhelming me. Python was my comfort zone, and Flask let me focus on learning core web concepts (routing, templates, deployment) without getting lost in complexity.<br><br>
+    <h4>The Challenges (and How I Tackled Them)</h4><br>
+    <ul><li><h5>Outdated Tutorials & Missing Pieces</h5>
+            Most Flask tutorials I found were outdated or skipped critical steps. After digging, I found a solid foundation but it left out all the CSS, JavaScript, and polish.<br><br>
+        My fix? I learned on the fly:<br>
+    Added dynamic features (like the "Show More/Less" buttons).
+            Styled everything from the navigation bar to the footer trial and error until it felt clean and professional using BootStrap as a guide.</li><br>
+        <li><h5>Deployment: From Local to Global</h5>
+    Getting the site live was its own adventure. I used Docker to containerize the app and deployed it to a cloud server.
+            Lesson learned: DevOps is its own beast, but now I know how to ship code beyond my laptop.</li></ul><br>
+    <h4>Why This Matters</h4><br>
+This wasn’t just about building a portfolio site. It was about proving I could:
+Teach myself a totally new skill (web dev).
+Problem-solve when resources fell short.
+Ship something real, not just follow a tutorial.
+And honestly? I’m hooked. Now I’m eyeing React for the frontend and more complex backends because the best projects are the ones that leave you hungry for more.
+<br><br>
 </p>
             <a href="https://github.com/XavierLED/resume-website" class="btn btn-secondary">View GitHub Repo</a>
-
+    </div>
 </div>
 {% endblock %}
 
