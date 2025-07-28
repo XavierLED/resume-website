@@ -4,6 +4,7 @@
 
 {% block content %}
 <div class="container my-5">
+    <div class="col-lg-8 px-0">
     <h3>Resume Website | Flask, Python, Git/GitHub, HTML, BootStrap, Docker</h3>
 <p class="fs-5">When I decided to build this website, I had zero web development experience. My only interaction with websites? Using them...<a href = "{{ url_for('projects.runWebsite') }}"> Read whole project.</a></p><br><br> 
 
@@ -33,7 +34,7 @@ Gained experience in computer vision, neural networks, and real-world medical da
 
 <h3> Wikipedia Scraper | Python, Web Requests </h3>
 <p class="fs-5"> yeyeyeyeyeye<a href="{{ url_for('projects.runWikiScraper') }}">Read whole project</a></p><br><br>
-
+</div>
 </div>
 {% endblock %}
 
