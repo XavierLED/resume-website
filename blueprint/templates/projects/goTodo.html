@@ -1,30 +1,48 @@
 {% extends "base.html" %}
 
-{% block title %}Projects - Resume Website{% endblock %}
+{% block title %}Projects{% endblock %}
 {% block content %}
 <div class="container my-5">
-    <h3>Resume Website | Flask, Python, Git/GitHub, HTML, CSS, JavaScript</h3>
-    <p>I built this command-line to-do list manager as my inaugural Go project—a practical way to learn the language’s quirks while creating something useful.
-Key Features
-✔ CLI-powered task management (add/delete/list tasks)
-✔ Command-line flags for intuitive function calls
-✔ Persistent storage to save tasks between sessions
-The Go Learning Curve
-Syntax Shifts: Adapting to Go’s strict formatting, error handling (if err != nil everywhere!), and explicit typing
-Compilation Challenges: Debugging runtime errors that only appeared after building
-Toolchain Familiarity: Learning go mod, the build process, and Go’s opinionated project structure
-Why This Project Mattered
-Proved I could quickly learn a new language’s idioms
-Solidified understanding of CLI app architecture
-Discovered Go’s strengths for small, performant utilities
-"Go’s simplicity is deceptive—it rewards careful design and punishes sloppy thinking. I’m hooked."
-What’s Next
+    <h3>CLI To Do List App | GoLang</h3>
+                <hr class="col-3 my-4">
+    <div class="col-lg-8 px-0">
+    <p>I built this command-line to-do list manager as my inaugural Go project a practical way to learn the language’s quirks while creating something useful.
+    <h4>Key Features</h4><br>
+    <ul>
+        <li>
+            CLI-powered task management (add/delete/list tasks)<br>
+        </li>
+        <li>
+            Command-line flags for intuitive function calls<br>
+        </li>
+        <li>
+            Persistent storage to save tasks between sessions<br>
+        </li>
+    </ul> <br>
+    <h4>The Go Learning Curve</h4><br>
+    <ul>
+        <li>
+            Syntax Shifts: Adapting to Go’s strict formatting, error handling (if err != nil everywhere!), and explicit typing<br>
+        </li>
+        <li>
+            Compilation Challenges: Debugging runtime errors that only appeared after building<br>
+        </li>
+        <li>
+            Toolchain Familiarity: Learning go mod, the build process, and Go’s opinionated project structure<br>
+        </li>
+    </ul><br>
+    <h4>Why This Project Mattered</h4>
+Proved I could quickly learn a new language’s idioms.
+Solidified understanding of CLI app architecture.
+Discovered Go’s strengths for small, performant utilities.
+    Go’s simplicity is deceptive it rewards careful design and punishes sloppy thinking. I’m hooked.<br><br>
+    <h4>What’s Next</h4>
 Adding deadlines and priorities
 Experimenting with concurrent task processing (goroutines!)
 
 </p>
             <a href="https://github.com/XavierLED/task-manager" class="btn btn-secondary">View GitHub repo</a>
-
+    </div>
 </div>
 {% endblock %}
 

@@ -1,41 +1,51 @@
 {% extends "base.html" %}
 
-{% block title %}Projects - Resume Website{% endblock %}
+{% block title %}Projects{% endblock %}
 {% block content %}
 <div class="container my-5">
-    <h3>Resume Website | Flask, Python, Git/GitHub, HTML, CSS, JavaScript</h3>
-    <p>I developed a deep learning system that analyzes brain MRI scans to detect tumors with 94% accuracy, combining computer vision with healthcare applications.
-Technical Implementation
-🧠 Built a CNN from Scratch
-Designed a convolutional neural network in PyTorch to process medical images
-Optimized layers and hyperparameters through iterative testing
-📊 Data & Performance
-Trained on real-world MRI datasets (healthy vs. tumor scans)
-Achieved 94% classification accuracy through:
-Careful layer architecture tuning
-Strategic data augmentation
-Key Challenges & Breakthroughs
-Medical Data Nuances
-Learned to work with specialized DICOM/medical image formats
-Addressed dataset imbalances through augmentation
-Model Optimization
-Experimented with different kernel sizes and pooling layers
-Balanced precision and recall for clinical relevance
-Why This Matters
-Proved I can apply deep learning to real-world problems
-Gained experience with:
-Computer vision for medical imaging
-PyTorch's full pipeline (from data loading to prediction)
-Ethical considerations in medical AI
-"Building this wasn't just about accuracy percentages - it was about understanding how AI could one day assist doctors in life-saving work."
-Skills Demonstrated
-PyTorch framework mastery
-CNN architecture design
-Medical image preprocessing
-Model evaluation and validation
-</p>
-            <a href="https://github.com/XavierLED/tumor-detector" class="btn btn-secondary">View GitHub repo</a>
+    <h3>Brain Tumor Detection AI | Python, PyTorch, Computer Vision, Machine Learning</h3>
+                <hr class="col-3 my-4">
+    <div class="col-lg-8 px-0">
 
+    <p>I developed a deep learning system that analyzes brain MRI scans to detect tumors with 94% accuracy, combining computer vision with healthcare applications.
+        <h4>Technical Implementation</h4><br>
+        <ul>
+            <li>
+                <h5>Built a CNN from Scratch</h5>
+                Designed a convolutional neural network in PyTorch to process medical images<br>
+                Optimized layers and hyperparameters through iterative testing<br>
+            </li>
+            <li>
+                <h5>Data & Performance</h5>
+                Trained on real-world MRI datasets (healthy vs. tumor scans)<br>
+                Achieved 94% classification accuracy through:<br>
+                Careful layer architecture tuning<br>
+                Strategic data augmentation<br>
+            </li>
+        </ul>
+        <h4>Key Challenges & Breakthroughs</h4><br>
+        <ul>
+            <li>
+                <h5>Medical Data Nuances</h5>
+                Learned to work with specialized DICOM/medical image formats<br>
+                Addressed dataset imbalances through augmentation<br>
+            </li>
+            <li>
+                <h5>Model Optimization</h5>
+                Experimented with different kernel sizes and pooling layers<br>
+                Balanced precision and recall for clinical relevance<br>
+            </li>
+        </ul>
+        <h4>Why This Matters</h4>
+Proved I can apply deep learning to real-world problems
+        Gained experience with:<br>
+Computer vision for medical imaging,
+PyTorch's full pipeline (from data loading to prediction),
+Ethical considerations in medical AI.
+Building this wasn't just about accuracy percentages - it was about understanding how AI could one day assist doctors in life-saving work.
+        </p><br>
+            <a href="https://github.com/XavierLED/tumor-detector" class="btn btn-secondary">View GitHub repo</a>
+    </div>
 </div>
 {% endblock %}
 
